@@ -1,9 +1,20 @@
 
-body {
+* {
   margin: 0;
   padding:0;
-  color: black;
+}
+
+body {
+  color: rgb(187, 113, 187);
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  margin-top:20px;
+  height: 1px;
+  background-color:rgb(187, 113, 187);
+  border: none;
 }
 
 #main {
@@ -12,7 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cyan;
+  background-color: rgb(105, 197, 140);
 }
 
 #quote-box {
@@ -20,31 +31,30 @@ body {
   height: auto;
   border: 1px black solid;
   border-radius: 5px;
-  padding: 10px;
-  background-color: yellow;
+  padding: 20px;
+  background-color: white;
 }
 
 #quote-text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
+  padding: 10px 0 0 0;
 }
-
-#text {}
 
 #quote-author {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 200;
   text-align: right;
+  padding: 10px 0;
 }
 
-#author {}
-
 #buttons-container {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .button {
   color: white;
-  background-color: purple;
+  background-color: rgb(187, 113, 187);
   padding: 10px;
   border: 1px black solid;
   border-radius: 5px;
