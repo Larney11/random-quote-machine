@@ -38,7 +38,13 @@ function getQuote() {
   $('#quote-author').animate({opacity: 0}, 300, function() {
     $(this).animate({opacity: 1}, 300);
     $('#author').html(currentAuthor);
-  })
+  });
+
+  $('#tweet-quote').attr(
+    'href',
+    'https://twitter.com/intent/tweet?hashtags=quotes&related=inspirational&text=' +
+      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
+  );
 };
 
 $(document).ready(function() {
