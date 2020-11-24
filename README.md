@@ -6,3 +6,8 @@ Random Quote Machine
     cd random-quote-machine
     npm install
     npm start
+
+
+
+### Codepen project: 
+<https://codepen.io/LarHarney/full/GRqVVXG>
